@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:todo_app/constants/colors.dart';
 import 'screens/home.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  // Ocultar a faixa "debug"
+class MyApp extends StatelessWidget { 
   const MyApp({super.key});
 
   @override
@@ -44,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
    return Scaffold(
+     backgroundColor: tdBGColor,
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
