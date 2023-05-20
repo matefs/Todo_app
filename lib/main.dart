@@ -6,11 +6,13 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  // Ocultar a faixa "debug"
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Todo app',
       home: Home(),
     );
