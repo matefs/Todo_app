@@ -9,12 +9,20 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: tdBGColor,
-      appBar: AppBar(
-        elevation: 0,
-        backgroundColor: tdBGColor,
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
+      appBar: __buildAppBar(),
+      body: Container(
+        child: Text('This is home screen'),
+      ),
+    );
+  }
+
+  AppBar __buildAppBar(){
+    return AppBar(
+      elevation: 0,
+      backgroundColor: tdBGColor,
+      title: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
           Icon(Icons.menu,color: tdBlack,size: 30,),
           Container(
             height: 40,
@@ -25,10 +33,6 @@ class Home extends StatelessWidget {
             ),
           )
         ],),
-      ),
-      body: Container(
-        child: Text('This is home screen'),
-      ),
     );
   }
-}
+} 
