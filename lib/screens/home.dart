@@ -9,6 +9,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
         backgroundColor: tdBGColor,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
