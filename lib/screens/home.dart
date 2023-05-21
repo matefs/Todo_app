@@ -4,9 +4,14 @@ import '../model/todo.dart';
 import 'package:todo_app/widgets/todo_item.dart';
 
 
-class Home extends StatelessWidget {
+class Home extends StatefulWidget {
   Home({Key? key}) : super(key: key);
 
+  @override
+  State<Home> createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
   final todosList = ToDo.todoList();
 
   @override
