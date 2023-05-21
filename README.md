@@ -3,6 +3,10 @@
 Este é um aplicativo simples de lista de tarefas, onde os usuários podem adicionar, marcar como concluídas e excluir tarefas. (
 This is a simple to-do list app where users can add, mark as completed, and delete tasks. )
 
+
+## Capturas de tela - Screenshots
+<img src='https://github.com/matefs/Todo_app/assets/30128774/2daf4869-4147-4d62-b895-58e2274f2057' width='500' />
+
 ## Recursos - Features
 
 - Adicionar tarefas à lista
@@ -14,8 +18,6 @@ This is a simple to-do list app where users can add, mark as completed, and dele
 - Pesquisar tarefas
 - Search tasks from the list
 
-## Capturas de tela - Screenshots
-<img src='https://github.com/matefs/Todo_app/assets/30128774/2daf4869-4147-4d62-b895-58e2274f2057' width='500' />
 
 
 ## Tecnologias utilizadas -Technologies Used
