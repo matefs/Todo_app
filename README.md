@@ -5,7 +5,7 @@ This is a simple to-do list app where users can add, mark as completed, and dele
 
 
 ## Capturas de tela - Screenshots 
-<img src='https://github.com/matefs/Todo_app/assets/30128774/4d1359c6-0b61-43e4-b8f1-83dbf28d28a5' width='500'/>
+<img src='https://github.com/matefs/Todo_app/assets/30128774/4d1359c6-0b61-43e4-b8f1-83dbf28d28a5' width='350'/>
  
 
 
