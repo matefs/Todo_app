@@ -14,30 +14,34 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: tdBGColor,
       appBar: __buildAppBar(),
-      body: Container(
-        padding: EdgeInsets.symmetric(horizontal: 24,vertical: 15),
-        child: Column(
-          children: [
-            searchBox(),
-            Expanded(
-                child: ListView(
-                children: [
-                  Container(
-                    margin: EdgeInsets.only(top:50,bottom: 20),
-                    child: Text('Todos os todos', style: TextStyle(
-                        fontSize: 30,
-                        fontWeight: FontWeight.w500),)
-                  ),
+      body: Stack(
+        children: [
+          Container(
+            padding: EdgeInsets.symmetric(horizontal: 24,vertical: 15),
+            child: Column(
+              children: [
+                searchBox(),
+                Expanded(
+                    child: ListView(
+                    children: [
+                      Container(
+                        margin: EdgeInsets.only(top:50,bottom: 20),
+                        child: Text('Todos os todos', style: TextStyle(
+                            fontSize: 30,
+                            fontWeight: FontWeight.w500),)
+                      ),
 
-                  for( ToDo todoo in todosList)
-                    ToDoItem(todo: todoo),
+                      for( ToDo todoo in todosList)
+                        ToDoItem(todo: todoo),
 
 
+                  ],
+                  )
+                )
               ],
-              )
-            )
-          ],
-        ),
+            ),
+          ),
+        ],
       ),
     );
   }
