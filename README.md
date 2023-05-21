@@ -4,8 +4,10 @@ Este é um aplicativo simples de lista de tarefas, onde os usuários podem adici
 This is a simple to-do list app where users can add, mark as completed, and delete tasks. )
 
 
-## Capturas de tela - Screenshots
-<img src='https://github.com/matefs/Todo_app/assets/30128774/2daf4869-4147-4d62-b895-58e2274f2057' width='500' />
+## Capturas de tela - Screenshots 
+<img src='https://github.com/matefs/Todo_app/assets/30128774/4d1359c6-0b61-43e4-b8f1-83dbf28d28a5' width='500'/>
+ 
+
 
 ## Recursos - Features
 
