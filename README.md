@@ -15,9 +15,8 @@ This is a simple to-do list app where users can add, mark as completed, and dele
 - Search tasks from the list
 
 ## Capturas de tela - Screenshots
+<img src='https://github.com/matefs/Todo_app/assets/30128774/2daf4869-4147-4d62-b895-58e2274f2057' width='500' />
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
 
 ## Tecnologias utilizadas -Technologies Used
 
