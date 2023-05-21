@@ -11,7 +11,48 @@ class Home extends StatelessWidget {
       backgroundColor: tdBGColor,
       appBar: __buildAppBar(),
       body: Container(
-        child: Text('This is home screen'),
+        padding: EdgeInsets.symmetric(horizontal: 24,vertical: 15),
+        child: Column(
+          children: [
+            searchBox(),
+            Expanded(
+                child: ListView(
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(top:50,bottom: 20),
+                    child: Text('Todos os todos', style: TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.w500),)
+                  )
+
+              ],
+            ))
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget searchBox(){
+    return Container(
+      padding: EdgeInsets.symmetric(horizontal: 15),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(20),
+      ),
+      child: TextField(
+        decoration: InputDecoration(
+          contentPadding: EdgeInsets.all(0),
+          prefixIcon: Icon(
+              Icons.search,
+              color: tdBlack,
+              size:20
+          ),
+          prefixIconConstraints: BoxConstraints(maxHeight: 20, minWidth: 25),
+          border: InputBorder.none,
+          hintText: "Pesquisar...",
+          hintStyle: TextStyle(color:tdGrey),
+        ),
       ),
     );
   }
@@ -35,4 +76,4 @@ class Home extends StatelessWidget {
         ],),
     );
   }
-} 
+}
