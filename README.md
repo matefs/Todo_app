@@ -1,16 +1,57 @@
-# todo_app
+# Todo App
 
-A new flutter todo app
+Este é um aplicativo simples de lista de tarefas, onde os usuários podem adicionar, marcar como concluídas e excluir tarefas.
+This is a simple to-do list app where users can add, mark as completed, and delete tasks.
 
-## Getting Started
+## Recursos
+## Features
 
-This project is a starting point for a Flutter application.
+- Adicionar tarefas à lista
+- Marcar tarefas como concluídas
+- Excluir tarefas da lista
+- Add tasks to the list
+- Mark tasks as completed
+- Delete tasks from the list
+- Pesquisar tarefas
+- Search tasks from the list
 
-A few resources to get you started if this is your first Flutter project:
+## Capturas de tela
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tecnologias utilizadas
+## Technologies Used
+
+- Flutter
+- Dart
+
+## Instalação
+## Installation
+
+1. Certifique-se de ter o Flutter instalado em seu ambiente de desenvolvimento.
+   Ensure that you have Flutter installed in your development environment.
+2. Clone este repositório: `git clone https://github.com/matefs/Todo_app.git`
+   Clone this repository: `git clone https://github.com/matefs/Todo_app.git`
+3. Acesse o diretório do projeto: `cd Todo_app`
+   Navigate to the project directory: `cd Todo_app`
+4. Execute o comando `flutter pub get` para instalar as dependências do projeto.
+   Run `flutter pub get` command to install the project dependencies.
+5. Conecte um dispositivo ou inicie um emulador.
+   Connect a device or start an emulator.
+6. Execute o comando `flutter run` para iniciar o aplicativo.
+   Run `flutter run` command to start the app.
+
+## Contribuição
+## Contribution
+
+Contribuições são bem-vindas! Se você encontrar problemas, bugs ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contributions are welcome! If you encounter any issues, bugs, or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## Licença
+## License
+
+Este projeto não possui licença. 
+This project has no license.
+
