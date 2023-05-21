@@ -41,6 +41,54 @@ class Home extends StatelessWidget {
               ],
             ),
           ),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: Row(
+              children: [
+                Expanded(child: Container(
+                  margin: EdgeInsets.only(
+                    bottom:20,
+                    left: 20,
+                    right: 20,
+                  ),
+                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    boxShadow: const [BoxShadow(
+                        color: Colors.grey,
+                        offset: Offset(0.0,0.0),
+                      blurRadius: 10.0,
+                      spreadRadius: 0.0,
+
+                    ),],
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const TextField(
+                    decoration: InputDecoration(
+                      hintText: "Adicione um novo item todo",
+                      border: InputBorder.none,
+                    )
+                  ),
+                )
+                ),
+                Container(
+                  margin: EdgeInsets.only(
+                    bottom: 20,
+                    right: 20,
+                  ),
+                  child: ElevatedButton(
+                    child: Text('+',style: TextStyle(fontSize: 40)),
+                    onPressed: (){},
+                    style: ElevatedButton.styleFrom(
+                      primary: tdBlue,
+                      minimumSize: Size(60,60),
+                      elevation: 10,
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
         ],
       ),
     );
@@ -53,9 +101,9 @@ class Home extends StatelessWidget {
         color: Colors.white,
         borderRadius: BorderRadius.circular(20),
       ),
-      child: TextField(
+      child: const TextField(
         decoration: InputDecoration(
-          contentPadding: EdgeInsets.all(0),
+          contentPadding: EdgeInsets.all(8.0),
           prefixIcon: Icon(
               Icons.search,
               color: tdBlack,
