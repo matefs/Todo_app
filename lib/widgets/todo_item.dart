@@ -1,18 +1,43 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/constants/colors.dart';
+import '../model/todo.dart';
 
 class ToDoItem extends StatelessWidget {
-  const ToDoItem({Key? key}) : super(key: key);
+  final ToDo todo;
+
+  const ToDoItem({Key? key, required this.todo}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.only(bottom: 20),
       child: ListTile(
-        onTap: (){},
+        onTap: (){
+          print('Clicou no todo item');
+        },
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        contentPadding: EdgeInsets.symmetric(horizontal: 20,vertical: 5),
         tileColor: Colors.white,
         leading: Icon(Icons.check_box, color: tdBlue,),
-        title: Text('Check mail', style: TextStyle(fontSize: 16,color: tdBlack,decoration: TextDecoration.lineThrough),),
+        title: Text(
+          todo.todoText!,
+          style: TextStyle(fontSize: 16,color: tdBlack,decoration: TextDecoration.lineThrough),),
+        trailing: Container(
+          height: 35,
+          width: 35,
+          decoration: BoxDecoration(
+            color: Color(0xFF6c5ce7),
+            borderRadius: BorderRadius.circular(5)
+          ),
+          child: IconButton(
+            color: Colors.white,
+            iconSize: 18,
+            icon: Icon(Icons.delete),
+            onPressed: (){
+              print('Clicou no botão apagar');
+            },
+          ),
+        ),
       ),
     );
   }
