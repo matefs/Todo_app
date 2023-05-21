@@ -11,14 +11,10 @@ This is a simple to-do list app where users can add, mark as completed, and dele
 
 ## Recursos - Features
 
-- Adicionar tarefas à lista
-- Marcar tarefas como concluídas
-- Excluir tarefas da lista
-- Add tasks to the list
-- Mark tasks as completed
-- Delete tasks from the list
-- Pesquisar tarefas
-- Search tasks from the list
+- Adicionar tarefas à lista ( Add tasks to the list)
+- Marcar tarefas como concluídas ( Mark tasks as completed)
+- Excluir tarefas da lista ( Delete tasks from the list)
+- Pesquisar tarefas ( Search tasks from the list )
 
 
 
